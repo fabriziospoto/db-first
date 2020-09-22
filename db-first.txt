@@ -1,0 +1,19 @@
+Auto usate
+
+ID                       numero incrementale       PRIMARY KEY, UNIQUE, AI
+Marca                    stringa                   varchar(15)  NOT NULL
+Modello                  stringa                   varchar(15)  NOT NULL
+Tipo(Cabriolet, etc)     stringa                   varchar(15)  NULL
+Kilometri                numero                    mediumint    NOT NULL
+Immatricolazione         data                      year         NOT NULL
+Prezzo                   numero                    mediumint    NOT NULL
+Carburante               stringa                   varchar(8)   NOT NULL
+Consumi                  stringa                   varchar(8)   NOT NULL
+Larghezza(cm)            numero                    smallint     NULL
+Altezza(cm)              numero                    smallint     NULL
+Lunghezza(cm)            numero                    smallint     NULL
+Porte                    numero                    tinyint      NOT NULL          
+Posti                    numero                    tinyint      NOT NULL
+Cilindrata               numero                    smallint     NULL
+ABS(Sì/No)               Booleano                  tinyint      DEFAULT
+Servosterzo(Sì/No)       Booleano                  tinyint      DEFAULT
