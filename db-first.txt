@@ -6,7 +6,7 @@ Modello                  stringa                   varchar(15)  NOT NULL
 Tipo(Cabriolet, etc)     stringa                   varchar(15)  NULL
 Kilometri                numero                    mediumint    NOT NULL
 Immatricolazione         data                      year         NOT NULL
-Prezzo                   numero                    mediumint    NOT NULL
+Prezzo                   numero                    float(5,2)   NOT NULL
 Carburante               stringa                   varchar(8)   NOT NULL
 Consumi                  stringa                   varchar(8)   NOT NULL
 Larghezza(cm)            numero                    smallint     NULL
